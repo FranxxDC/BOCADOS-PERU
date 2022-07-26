@@ -1,0 +1,71 @@
+.contenedor-foot span {
+    color: white;
+}
+footer .lni{ 
+    color: white;
+    margin-right: 4px;
+}
+.contenedor-foot{
+    width: 100%;
+    height: 15em;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.izquiedo{
+    height: 160px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+.contenedor-foot .logo{
+    width: 200px;
+    height: 160px;
+    margin-left:  -20px;
+    background-image: url(../img/1.png);
+    background-position: center center;
+}
+.contenedor-foot .icon{
+    margin-top: 20px;
+    font-size: 35px;
+}
+.medio1{
+    justify-self: center;
+    width: 400px;
+    height: 160px;
+    align-self: center;
+}
+.contenedor-foot .texto-medio1 span{
+    display: block;
+    font-family: sans-serif;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.derecho{
+    height: 160px;
+    width: 400px;
+    color: white;
+    text-align: center;
+}
+.derecho h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+.derecho hr{
+    height: 5px;
+    width: 160px;
+    margin: auto;
+   background-color:  white;
+    border: none;
+    margin-bottom: 20px;
+}
+.derecho p{
+    font-size: 20px;
+}

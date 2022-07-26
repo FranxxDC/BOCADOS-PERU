@@ -1,0 +1,121 @@
+.contenedorblock{
+    width: 100%;
+    height:  auto;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+    
+}
+
+.contenedor{
+    display: flex;
+    margin: auto;
+    width: 800px;
+    height: 200px;
+    background-color: rgb(25, 148, 255);
+    margin-top: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: transform 1s;
+    -webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
+    -ms-transition: transform 1s;
+    -o-transition: transform 1s;
+}
+#contenedor1{
+    background-image: url(../img/desayuno.jpg);
+    background-position: center center;
+}
+
+#contenedor1 span{
+    position: relative;
+    color: rgb(0, 0, 0);
+    margin-left: 190px;
+    font-size: 70px;
+    bottom: -60px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.contenedor:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.contenedor span:hover{
+    color: gray;
+}
+#contenedor2 {
+    background-image: url(../img/almuerzoejecutivo.jpg);
+    background-position: center center;
+}
+#contenedor2 span{
+    position: relative;
+    color: rgb(0, 0, 0);
+    margin-left: 207px;
+    font-size: 70px;
+    bottom: -9px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contenedor3{
+    background-image: url(../img/bebidas2.jpg);
+    background-position: center center;
+}
+#contenedor3 span{
+    position: relative;
+    color: rgb(0, 0, 0);
+    margin-left: 240px;
+    font-size: 70px;
+    bottom: -50px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contenedor4{
+    background-image: url(../img/pastasylasañas.jpg);
+    background-position: center center;
+}
+#contenedor4 span{
+    position: relative;
+    color: rgb(0, 0, 0);
+    margin-left: 240px;
+    font-size: 70px;
+    bottom: -20px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contenedor5{
+    background-image: url(../img/platosfondos.jpg);
+    background-position: center center;
+}
+#contenedor5 span{
+    position: relative;
+    color: rgb(0, 0, 0);
+    margin-left: 140px;
+    font-size: 70px;
+    bottom: -45px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contenedor6{
+    background-image: url(../img/entrada.jpeg);
+    
+}
+#contenedor6 span{
+    position: relative;
+    color: rgb(0, 0, 0);
+    margin-left: 250px;
+    font-size: 70px;
+    bottom: -45px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
